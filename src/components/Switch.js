@@ -14,12 +14,14 @@ const Switch = () => {
         }
     },[])
     return (
+        <div className='container'>
         <label>
             <input type="checkbox" onClick={clickHandler}/>
             <span className='switch'>
                 <span  className='handel'/>
             </span>
         </label>
+        </div>
     );
 };
 
